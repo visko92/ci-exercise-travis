@@ -1,2 +1,2 @@
 script: 
- - grep -R CODE_ERROR ./*.md || exit 0 && exit 1
+ - (grep -R CODE_ERROR ./*.md || exit 0 && exit 1)
